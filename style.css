@@ -1,0 +1,75 @@
+body{
+    
+    border: 5px solid white;
+    margin: 50px;
+}
+
+
+.Heroes-container{
+    background-color: #e7be07d7;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 500px;
+    margin: 0;
+}
+
+img{
+    border: 5px solid white;
+}
+
+.container-fluid{
+    background-color: rgba(7, 87, 7, 0.801);
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+}
+
+p{
+    color: white;
+}
+
+.container-fluid p{
+    color: white;
+}
+
+.footer-container{
+    background-color: rgba(7, 87, 7, 0.801);
+}
+
+.foot p{
+    color: white;
+}
+
+.buttons{
+    background-color: rgba(7, 87, 7, 0.801); ;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;    
+    
+}
+
+.DM{
+    color: white;
+}
+
+.buttons :hover{
+    background-color: rgba(7, 87, 7, 0.801);
+}
+
+@media(max-width:1500px){
+   .Heroes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+   }
+   
+}
+
+
+
+
+
