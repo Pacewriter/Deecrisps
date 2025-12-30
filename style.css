@@ -1,8 +1,7 @@
 body{
     
     border: 5px solid white;
-    margin: 50px;
-    min-height: 100vh;
+    width:100%
 }
 
 
@@ -58,6 +57,7 @@ p{
 .buttons :hover{
     background-color: rgba(7, 87, 7, 0.801);
 }
+
 
 
 
