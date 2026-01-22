@@ -2,29 +2,37 @@
 <html lang= "en">
     <head>
         <meta charset="UTF-8">
+        <meta name = "viewport" 
+        content = "width=device-width, initial-scale=1.0">
         <title>About</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     </head>
     <style>
+        body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        .page-content{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
         .container-fluid{
             background-color: rgba(7, 87, 7, 0.801);
         }
-        .page-content{
-            min-height: 100vh;
-        }
+        
 
         .About{
             display: flex;
             flex-direction: column;
             align-items: center;
             background-color: #fff8e6;
-            padding: 50px;
+            padding: 20px;
         }
 
-        body{
-            border: 5px solid white;
-            margin: 50px;
-        }
 
         .footer-container{
             background-color: #3a7d44;
@@ -41,9 +49,12 @@
         .About p{
             color: #3a2f1d;
             margin-top: 30px;
+            text-align: center;
         }
 
         img{
+            max-width: 30%;
+            height: auto;
             border: 3px solid #f0e2b6;
         }
 
@@ -57,7 +68,7 @@
             <div id="Navbar" class="Navbar-container">
                 <nav class="navbar" aria-label="First navbar example"> 
                     <div class="container-fluid"> 
-                        <p class="navbar-brand" href=""> <img src="./Deecrisps logo.jpg" width="50px"/> DeeCrisps</p>
+                        <a class="navbar-brand" href="./index.html"> <img src="./Deecrisps logo.jpg" width="50px"/> DeeCrisps</a>
                         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"> 
                             <span class="navbar-toggler-icon"></span> 
                         </button> 
@@ -72,8 +83,8 @@
                 </nav> 
             </div>
         
-            <div class="About">
-                <img class="Doubra" src="./deecrisps about.jpg" width="300px" />
+            <div class="About px-3 px-md-5 py-4">
+                <img class="Doubra" src="./deecrisps about.jpg" />
                 <p class="Lorem">First paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Arcu cursus vitae congue mauris. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Nisi est sit amet
                 facilisis magna. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Quis ipsum suspendisse ultrices
