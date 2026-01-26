@@ -1,18 +1,33 @@
-body{
-    
-    border: 5px solid white;
-    width:100%
-}
-
-
-.Heroes-container{
-    background-color: #e7be07d7;
-    padding-left: 100px;
-    padding-right: 100px;
+html, body{
+    height: 100%;
     margin: 0;
 }
 
-img{
+.page-wrapper{
+    min-height: 100vh;
+    background-color: #e7be07d7;
+}
+
+.Heroes-container{
+    background-color: transparent;
+    min-height: calc(100vh - 72px);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.small-img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
     border: 5px solid white;
 }
 
@@ -20,16 +35,21 @@ img{
     background-color: rgba(7, 87, 7, 0.801);
 }
 
+.container-fluid p{
+    color: #e7be07d7;;
+}
+
 h1{
     color: white;
-    font-size: 70px;
+    font-size: clamp(2.2rem, 7vw, 8rem);
+}
+
+.lead{
+    color: white;
+    font-size: clamp(1.1rem, 3vw, 2rem);
 }
 
 p{
-    color: white;
-}
-
-.container-fluid p{
     color: white;
 }
 
@@ -37,29 +57,28 @@ p{
     background-color: rgba(7, 87, 7, 0.801);
 }
 
-.foot p{
-    color: white;
-}
-
 .buttons{
-    background-color: rgba(7, 87, 7, 0.801); ;
-    margin-left: 50px;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;    
-    
-}
-
-.DM{
-    color: white;
-}
-
-.buttons :hover{
     background-color: rgba(7, 87, 7, 0.801);
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    margin-top: 3%;
+}
+
+.buttons:hover{
+    background-color: rgba(7, 87, 7, 0.9);
 }
 
 
+@media (max-width: 991px) {
+    .small-heroes{
+        text-align: center;
+    }
 
+    .small-heroes img{
+        max-width: 95%;
+        margin: 0 auto;
+    }   
 
-
-
+}
