@@ -33,7 +33,7 @@ html, body{
     width: 100%;
     height: auto;
     border-radius: 12px;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 
 .container-fluid{
@@ -88,6 +88,7 @@ p{
     }   
 
 }
+
 
 
 
