@@ -17,6 +17,7 @@ html, body{
 
 .small-heroes img{
     border: 5px solid white;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -83,9 +84,10 @@ p{
     .small-heroes img{
         max-width: 95%;
         margin: 0 auto;
-        border: 5px solid white;
+        display: block;
     }   
 
 }
+
 
 
