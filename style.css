@@ -83,7 +83,9 @@ p{
     .small-heroes img{
         max-width: 95%;
         margin: 0 auto;
+        border: 5px solid white;
     }   
 
 }
+
 
