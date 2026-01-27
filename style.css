@@ -15,6 +15,10 @@ html, body{
     padding-bottom: 2rem;
 }
 
+.small-heroes img{
+    border: 5px solid white;
+}
+
 .navbar{
     padding-left: 0;
     padding-right: 0;
@@ -82,3 +86,4 @@ p{
     }   
 
 }
+
